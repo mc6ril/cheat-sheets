@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Layout from "../components/Layout";
 
-export default function Home() {
+export default function Html() {
   return (
     <Layout>
-      <>
-        <p>hello</p>
-      </>
+      <section>
+        <p>Bienvenue sur la page html</p>
+      </section>
     </Layout>
   );
 }
